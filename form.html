@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма Гнатенко Павел 201-324</title>
+
+    <link rel="stylesheet" type="text/css" href="CSS/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+</head>
+<body>
+	<header>
+		<div class="headr">
+			<div class="logo">
+				<img src="img/logo.png" alt="Лого">
+			</div>
+		 <nav>
+            <ul class="hr">
+            	
+                <li><a href="index.html">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Help</a></li>
+            
+            </ul>
+        </nav>
+        <div class="SignIn">
+        	<a href="form.html">Sign In</a>
+    	</div>
+    	<div class="SignUp">
+        	<form action="form.html" target="_blank">
+        		<button class="SUtxt">Sign Up</button>
+    		</form>
+    	</div>
+    </div>
+
+	</header>
+
+<main class="Foot">
+<form name="Contact" method="post" data-netlify="true">
+	<fieldset class="FFS">
+		<legend class="FH">Entry Data</legend>
+
+	<div class="mainf">
+		<label class="txt">Name*<input class="namefield" type="text" name="text-field" placeholder="" required></label><p></p>
+
+	
+	
+        <label class="txt">Password*<input class="passwordfield" type="password" name="password" id="password" value="" required></label></div></fieldset>
+
+<fieldset class="FFS">
+
+	<legend class="FH">Contacts</legend>
+	<div class="mainf">
+<label class="txt">Еmail*<input class="emailfield" type="email" name="email" placeholder="example@example.com" required></label><p></p>
+        <label class="txt">Mobile*<input class="mobilefield" type="tel" name="tel" placeholder="88005553535" required></label></div></fieldset>
+
+<fieldset class="FFS">
+	<legend class="FH">Others</legend>
+	<div class="mainf">
+<label class="txt">Birth Date<input class="datebox" type="date" name="date"></label><p></p>
+<label class="txt">Gender</label><span class="genderch"><input type="radio" name="radio" value=" "><label class="txt">Man</label>
+        <label class="txt"><input type="radio" name="radio" value=" ">Woman</label>
+        <label class="txt"><input type="radio" name="radio" value=" ">Other</label></span><p></p>
+        <label class="txt">When can we contact you?</label><p></p><span class="WhenCon"><label class="txt"><input type="checkbox" name="checked" value=" ">Morning</label>
+        <label class="txt"><input type="checkbox" name="checked" value=" ">Day</label>
+        <label class="txt"><input type="checkbox" name="checked" value=" ">Evening</label>
+        <label class="txt"><input type="checkbox" name="checked" value=" ">Night</label></span>
+        
+    </div>
+</fieldset>
+
+
+<div  class="SignUpF">
+        	
+        		<button class="SUFtxt">Sign Up</button>
+    		
+    	</div>
+
+    	<div  class="SignUpFClosed">
+        	
+        		<button class="SUFtxt" disabled>Reset</button>
+    		
+    	</div>
+</form>
+
+<form name="Theory">
+    <div class="Form2">
+    <div class="Termins">
+    <dl>
+        <dt>Псевдокласс</dt>
+        <dd>Особый вид селектора, который уточняет тип или состояние. Обычно это какой-то качественный
+            признак: реакция на наведение курсора, порядок следования и другие.
+        </dd>
+        <dt>Псевдоэлемент</dt>
+        <dd>Элементы, которых не существует в HTML-разметке, но действуют так, как если бы вы добавили в
+            разметку целый новый HTML-элемент.
+            Они создаются и позиционируются исключительно при помощи CSS.
+            Чаще всего используются для создания различных декоративных элементов (которые не несут
+            содержательного смысла).
+        </dd>
+    </dl>
+    </div>
+
+    </div>
+    
+    <div class="Form2PEK">
+        <div class="checkboxpel">
+            <span class="PEK">:Псевдоклассы</span>
+            <span class="PEKf">
+            <label><input type="checkbox" name="checked" value=":hover" checked><span
+                    class="checkedForm"><span class="Nechet">:hover</span></span></label>
+            <label><input type="checkbox" name="checked" value=":visited"><span
+                    class="checkedForm2"><span class="Chet">:visited</span></span></label>
+            <label><input type="checkbox" name="checked" value=":invalid"><span
+                    class="checkedForm2"><span class="Nechet">:invalid</span></span></label>
+            <label><input type="checkbox" name="checked" value=":active" checked><span
+                    class="checkedForm"><span class="Chet">:active</span></span></label>
+            <label><input type="checkbox" name="checked" value=":focus" checked><span
+                    class="checkedForm"><span class="Nechet">:focus</span></span></label></span>
+        </div>
+
+            <div class="checkboxpcls">
+                <span class="PEK">::Псевдоэлементы</span>
+                <span class="PEKf">
+                <label><input type="checkbox" name="checked" value="::first-letter" checked><span
+                        class="checkedForm"><span class="Nechet">::first-letter</span></span></label>
+                <label><input type="checkbox" name="checked" value="::first-line"><span class="checkedForm2"><span
+                            class="Chet">::first-line</span></span></label>
+                <label><input type="checkbox" name="checked" value="::selection" checked><span class="checkedForm"><span
+                            class="Nechet">::selection</span></span></label>
+                <label><input type="checkbox" name="checked" value="::placeholder" checked><span
+                        class="checkedForm"><span class="Chet">::placeholder</span></span></label>
+                <label><input type="checkbox" name="checked" value="::after" checked><span class="checkedForm"><span
+                            class="Nechet">::after</span></span></label></span>
+            </div></div>
+
+</form>
+
+</main>
+
+	<footer class="footerF">
+<div class="elements">
+		<div class="Social">
+		<div class="log"><img src="img/logo.png" alt="Лого"></div>
+		<div class="PS"><p><strong>LaslesVPN</strong> is a private virtual network that has unique features and has high security.</p></div>
+		<div class="Media">
+		<a href="#"><img src="img/Facebook.png" alt="Facebook"></a>
+		<a href="#"><img src="img/Twitter.png" alt="Twitter"></a>
+		<a href="#"><img src="img/Instagram.png" alt="Instagram"></a></div>
+		<div class="at"><p>©2020LaslesVPN</p></div></div>
+
+		<div class="finhead1"><h3>Product</h3>
+		<nav>
+            <ul class="fr">
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Server</a></li>
+                <li><a href="#">Countries</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav></div>
+
+        <div class="finhead2"><h3>Engage</h3>
+        <nav>
+            <ul class="fr">
+                <li><a href="#">LaslesVPN ?</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Tutorials</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </nav></div>
+
+        <div><h3 class="finhead2">Earn Money</h3>
+        <nav>
+            <ul class="fr2">
+                <li><a href="#">Affiliate</a></li>
+                <li><a href="#">Become Partner</a></li>
+            </ul>
+        </nav></div>
+</div>
+		
+	</footer>
+</body>
+</html>

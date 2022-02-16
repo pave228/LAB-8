@@ -1,0 +1,1481 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root{
+    --text-color1:#4F5665 ;}
+
+    ::selection{
+        background-color: red;
+    }
+
+    a{
+        color: var(--text-color1);
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    a:focus{
+        border: 1px solid #F53855;
+        box-sizing: border-box;
+        border-radius: 0px;
+        color: red;
+    }
+
+    a:active{
+        color: red;
+    }
+
+    strong{
+        font-weight: 900;
+    }
+
+    button{
+        border: none;
+        background: transparent;
+    }
+    .headr
+    {
+        width: 1440px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .body,.footer,.footerF{
+        width: 1688px;
+    }
+
+    .logo{
+        width: 149px;
+        height: 36.23px;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+
+    ul.hr {
+        font-family: 'Rubik', sans-serif;
+        font-size: 16px;
+        margin-top: 58.62px;
+        margin-left: 50px;
+    }
+
+    ul.hr li {
+        color: var(--text-color1);
+        display: inline;
+        margin-right: 40px;
+        text-decoration: none;
+    }
+
+    ul.hr li:hover {
+        color: var(--text-color1);
+        display: inline;
+        margin-right: 40px;
+        text-decoration: underline;
+    }
+
+    .SignIn {
+        font-family: 'Rubik', sans-serif;
+        font-size: 16px;
+        margin-top: 58.62px;
+        margin-left: 150px;
+        color: #0B132A;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 19px;
+    }
+
+    .SignUp {
+        margin-top: 45.62px;
+        margin-left: 30px;
+        width: 150px;
+        height: 45px;
+        border: 1px solid #F53855;
+        box-sizing: border-box;
+        border-radius: 50px;
+    }
+
+    .SUtxt{
+        margin-top: 10px;
+        margin-left: 35px;
+        width: 75px;
+        height: 19px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F53855;
+    }
+
+    .SignUp:hover {
+        margin-top: 45.62px;
+        margin-left: 30px;
+        width: 150px;
+        height: 45px;
+        border: 1px solid #F53855;
+        box-sizing: border-box;
+        border-radius: 50px;
+        box-shadow: 0 10px 40px 0px red;
+    }
+
+    .Start {
+        margin-top: 70px;
+        width: 250px;
+        height: 60px;
+        background: #F53838;
+        border-radius: 10px;
+    }
+
+    .GStxt{
+        margin-top: 17.5px;
+        margin-left: 77.5px;
+        width: 100px;
+        height: 25px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 25px;  
+        color: #FFFFFF;
+    }
+
+    .Start:hover {
+        margin-top: 70px;
+        width: 250px;
+        height: 60px;
+        background: #F53838;
+        border-radius: 10px;
+        box-shadow: 0 10px 40px 0px red;
+    }
+
+    .section1{    
+        margin-top: 100px;
+    }
+
+    .elements {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .el1{
+        margin-left: 150px;
+    }
+
+    .el2{
+        margin-right: 345.76px;
+    }
+
+    .head{
+        width: 555px;
+        height: 140px;
+        font-family: Rubik;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 70px;
+    }
+
+    .posthead{
+        width: 555px;
+        height: 60px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+
+
+    .board{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 241px;
+        width: 1140px;
+        height: 200px;
+        margin-top: 103px;
+        box-shadow: 0 40px 90px 0px black;
+        background: white;
+        border-radius: 10px;
+    }
+
+    div.txt1,div.txt2,div.txt3{
+        margin-right: 36.5px;
+        margin-top: 67.5px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        color: #0B132A;
+    }
+
+    div.user,div.location,div.server{
+        margin-top: 72.5px;
+    }
+
+    .user{
+        margin-left: 91px;
+    }
+
+    .location, .server{
+        margin-left: 113px;
+    }
+
+    .vector{
+        margin-top: 37.21px;
+        margin-left: 50px;
+    }
+
+    div.txtus,div.txtloc,div.txtserv{
+        width: 91px;
+        height: 30px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: var(--text-color1);
+        margin-top: 5px;
+    }
+
+    div.nine,div.three,div.five {
+        margin-top: -30px;
+        width: 49px;
+        height: 30px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 30px;
+        color: #0B132A;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .elements2{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cms{
+        margin-top: 23px;
+        width: 600.08px;
+        height: 165px;
+    }
+
+    div.cm1,div.cma2,div.cm3,div.cm4{
+        display: flex;
+        align-items: center;
+    }
+
+    div.cm1txt,div.cma2txt,div.cm3txt,div.cm4txt{
+        margin-left: 10px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 30px;
+        color: var(--text-color1);
+    }
+
+    .cma2txt{
+        width: 300px;
+    }
+
+    .illust2{
+        margin-top: 163px;
+        margin-left: 184px;
+    }
+
+    .txtfeat{
+        margin-top: 222px;
+        margin-right: 250px;
+    }
+
+    .WeProvide{
+        width: 383.41px;
+        height: 100px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 35px;
+        line-height: 50px;
+        color: #0B132A;
+    }
+
+    .YouCan{
+        width: 427.88px;
+        height: 60px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        color: var(--text-color1);
+    }
+
+    .section2{
+        margin-top: 130px;
+        background: #F6F6F6;
+    }
+
+    .Choose{
+        padding-top: 80px;
+        margin-left: 527px;
+        width: 383.41px;
+        height: 50px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 35px;
+        line-height: 50px;
+        text-align: center;
+        color: #0B132A;
+    }
+
+    .LetsChoose{
+        margin-left: 440px;
+        width: 555px;
+        height: 60px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: var(--text-color1);
+    }
+
+    div.Boxes{
+        margin-top: 140px;
+        width: 1440px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div.Box1{
+        width: 330px;
+        height: 760px;
+        margin-left: 150px;
+        background: white;
+        border: 2px solid #DDDDDD;
+        box-sizing: border-box;
+        border-radius: 10px;
+
+
+
+    }
+
+    .PicBox{
+        margin-left: 92.55px;
+        margin-top: 79.63px;
+    }
+
+    div.Box2{
+        width: 330px;
+        height: 760px;
+        background: white;
+        border: 2px solid #DDDDDD;
+        box-sizing: border-box;
+        border-radius: 10px;
+
+    }
+
+
+
+    div.Box3{
+        width: 330px;
+        height: 760px;
+        margin-right: 150px;
+        background: white;
+        border: 2px solid #F53838;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+
+    .txtBox1{
+        margin-left: 120px;
+        margin-top: 30px;
+        width: 82px;
+        height: 30px;
+
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 18px;
+        line-height: 30px;
+/* identical to box height, or 167% */
+
+text-align: center;
+
+color: #0B132A;}
+
+.txtBox2{
+    width: 123px;
+    height: 30px;
+
+    margin-left: 100px;
+    margin-top: 30px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 18px;
+    line-height: 30px;
+/* identical to box height, or 167% */
+
+text-align: center;
+
+color: #0B132A;}
+
+.txtBox3{
+    width: 121px;
+    height: 30px;
+
+    margin-left: 100px;
+    margin-top: 30px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 18px;
+    line-height: 30px;
+/* identical to box height, or 167% */
+
+text-align: center;
+
+color: #0B132A;}
+
+.checkmarks21{
+    width: 190.26px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 69.87px;
+}
+
+.checkmarks22{
+    width: 190.54px;
+    height: 190px;
+    margin-top: 30px;
+    margin-left: 69.73px;
+}
+
+.checkmarks23{
+    width: 190.54px;
+    height: 230px;
+    margin-top: 30px;
+    margin-left: 69.73px;
+}
+
+
+div.freecm{
+    width: 150px;
+    /*margin-left: 150px;
+    margin-top: 50px;  */
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+}
+
+.cm2{
+ width: 190px;
+ height: 50px;
+ padding-left: 20px;
+
+ font-family: Rubik;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 30px;
+ margin-top: -10px;
+ color: var(--text-color1);
+}
+.cm2txter{
+    width: 300px;
+    margin-left: 40px;
+    margin-top: -38px;
+}
+.cm2txt{
+    width: 190px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: -50px;
+}
+
+div.nuldol{
+    width: 54px;
+    height: 30px;
+
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+/* identical to box height, or 120% */
+
+text-align: center;
+
+color: #0B132A;
+margin-left: 138px;
+margin-top: 130px;
+
+}
+
+div.ninedol{
+    width: 92px;
+    height: 30px;
+
+    margin-top:90px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+/* identical to box height, or 120% */
+
+text-align: center;
+margin-left: 119px;
+color: #0B132A;
+
+}
+
+div.twelvedol{
+    margin-top: 50px;
+    margin-left: 113px;
+
+    width: 104px;
+    height: 30px;
+
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+/* identical to box height, or 120% */
+
+text-align: center;
+}
+
+form.Sel1, form.Sel2{
+    margin-top: 20px;
+    margin-left: 76.6px;
+    width: 177.88px;
+    height: 45px;
+
+
+    border: 2px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+form.Sel1:hover{
+    margin-top: 20px;
+    margin-left: 76.6px;
+    width: 177.88px;
+    height: 45px;
+
+
+    border: 2px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 50px;
+
+    box-shadow: 0 10px 40px 0px red;
+}
+form.Sel2:hover{
+    margin-top: 20px;
+    margin-left: 76.6px;
+    width: 177.88px;
+    height: 45px;
+
+
+    border: 2px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 50px;
+
+    box-shadow: 0 10px 40px 0px red;
+}
+
+.Btxt{
+    margin-top: 11px;
+    margin-left: 60px;
+    width: 52px;
+    height: 19px;
+    left: 314px;
+    top: 2454.55px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+/* identical to box height */
+
+
+color: #F53838;
+}
+
+form.Sel3{
+ margin-top: 20px;
+ margin-left: 76.6px;
+
+ width: 177.88px;
+ height: 45px;
+
+ background: #F53838;
+ border-radius: 50px;
+}
+
+.Sel3:hover{
+    margin-top: 20px;
+    margin-left: 76.6px;
+    
+    width: 177.88px;
+    height: 45px;
+
+    background: #F53838;
+    border-radius: 50px;
+
+    box-shadow: 0 10px 40px 0px red;
+}
+
+.Btxt2{
+    margin-top: 13px;
+    margin-left: 60px;
+    width: 52px;
+    height: 19px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+div.section3{
+    margin-top: -30px;
+    background: #F6F6F6;
+}
+
+.Huge{
+    padding-top: 80px;
+    margin-left: 527px;
+    width: 383.41px;
+    height: 100px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 35px;
+    line-height: 50px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+color: #0B132A;
+
+}
+
+.See{
+    margin-left: 440px;
+    width: 555px;
+    height: 60px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+/* or 187% */
+
+text-align: center;
+
+color: var(--text-color1);
+
+}
+
+.Map{
+    margin-left: 190px;
+    margin-top: 155px;
+}
+
+.Sponsor{
+    margin-top: 6px;
+    margin-left: 145px;
+}
+
+div.section4{
+ margin-top: -50px;
+ background: #F6F6F6;
+}
+
+.Trust{
+    padding-top: 80px;
+    margin-left: 527px;
+    width: 447.81px;
+    height: 100px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 35px;
+    line-height: 50px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+color: #0B132A;
+
+}
+
+.Stories{
+    margin-left: 470px;
+    width: 555px;
+    height: 60px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+/* or 187% */
+
+text-align: center;
+
+color: var(--text-color1);
+
+}
+
+
+/* margin-top: 90px;
+    margin-left: 150px;
+    width: 400px;
+height: 230px;
+left: 1050px;
+top: 4094.25px;
+
+border: 2px solid #DDDDDD;
+box-sizing: border-box;
+border-radius: 10px;*/
+
+.comments{
+    margin-left: 50px;
+    margin-top: 60px;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+}
+
+.comment1{
+ margin-left: 150px;
+ width: 400px;
+ height: 230px;
+
+
+ background: white;
+ border: 2px solid #F53838;
+ box-sizing: border-box;
+ border-radius: 10px;
+}
+
+.topstuff{
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+}
+
+.comment2{
+    width: 400px;
+    height: 230px;
+    margin-left: 50px;
+
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.comment3{
+    width: 400px;
+    height: 230px;
+    margin-left: 50px;
+
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+/*.ava1{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.ava2{
+    margin-left: 110px;
+}
+
+.ava3{
+    margin-left: 110px;
+}*/
+
+.NT1,.NT2,.NT3{
+    margin-left: 20px;
+}
+
+.Name1, .Name2, .Name3{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+/* or 167% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #0B132A;
+}
+
+.Name1{
+    width: 112px;
+    height: 18px;
+}
+
+.Name2{
+    width: 142.02px;
+    height: 18px;
+}
+
+.Name3{
+    width: 142.02px;
+    height: 18px;
+
+}
+
+.Town1,.Town2,.Town3{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+/* or 214% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: var(--text-color1);
+
+}
+
+.Town1{
+    margin-top: 5px;
+    width: 110px;
+    height: 14px;
+}
+
+.Town2{
+    width: 109.36px;
+    height: 14px;
+    margin-top: 5px;
+}
+
+.Town3{
+    width: 127.34px;
+    height: 14px;
+    margin-top: 5px;
+}
+
+.point1{
+    width: 24px;
+    height: 16px;
+    margin-left: 108px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+/* or 187% */
+
+display: flex;
+align-items: center;
+
+color: #0B132A;
+}
+
+.point2{
+    width: 24px;
+    height: 16px;
+    margin-left: 77.98px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+/* or 187% */
+
+display: flex;
+align-items: center;
+
+color: #0B132A;
+}
+
+.point3{
+    width: 24px;
+    height: 16px;
+    margin-left: 77.98px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+/* or 187% */
+
+display: flex;
+align-items: center;
+
+color: #0B132A;
+}
+
+
+.star{
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-top: -2px;
+}
+
+.star2{
+    padding-left: 3px;
+    padding-right: 30px;
+    margin-top: -2px;
+}
+
+.star3{
+   justify-content: space-between;
+   margin-right: 30px;
+   margin-top: -2px;
+}
+
+.Com1{
+    width: 340px;
+    height: 100px;
+
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+/* or 187% */
+margin-top: 20px;
+display: flex;
+align-items: center;
+margin-left: 30px;
+color: #0B132A
+
+}
+
+.Com2{
+    width: 340px;
+    height: 100px;
+
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+/* or 187% */
+margin-top: -13px;
+display: flex;
+align-items: center;
+margin-left: 30px;
+color: #0B132A
+
+}
+
+.Com3{
+    width: 340px;
+    height: 100px;
+
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+/* or 187% */
+margin-left: 30px;
+display: flex;
+align-items: center;
+
+color: #0B132A;
+
+}
+
+.elements5{
+     /*width: 1440px;
+    /*margin-left: 150px;
+    margin-top: 50px;  */
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+    margin-top: 82px;
+}
+
+.slider{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.left{
+    margin-left: 925px;
+    margin-top: 30px;
+}
+
+.right{
+    margin-right: 150px;
+}
+
+div.section5{
+    margin-top: 0px;
+    background: #F6F6F6;
+}
+
+.elements6{
+    /*width: 1440px;
+    /*margin-left: 150px;
+    margin-top: 50px;  */
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+    width: 1140px;
+    height: 233px;
+    margin-left: 150px;
+
+
+    background: white;
+    border-radius: 10px;
+}
+
+.Sub{
+    margin-top: 58.5px;
+    margin-left: 70px;
+    width: 371.61px;
+    height: 80px;
+
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 36px;
+    line-height: 45px;
+/* or 129% */
+
+display: flex;
+align-items: center;
+
+color: #0B132A;
+
+}
+
+.WithUs{
+    width: 410px;
+    height: 16px;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+/* or 187% */
+
+display: flex;
+align-items: center;
+
+color: var(--text-color1);
+}
+
+.ButtSub{
+    padding-right: 50px;
+    margin-right: 70px;
+    margin-top: 86.5px;
+    width: 200px;
+    height: 60px;
+
+    background: #F53838;
+    border-radius: 10px;
+}
+.ButtSub:hover{
+    padding-right: 50px;
+    margin-right: 70px;
+    margin-top: 86.5px;
+    width: 200px;
+    height: 60px;
+
+    background: #F53838;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px 0px red;
+}
+
+.SBtxt{
+    margin-top: 17px;
+    margin-left: 25px;
+    width: 200px;
+    height: 25px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+/* identical to box height, or 156% */
+
+
+color: #FFFFFF;
+}
+
+footer {
+
+    margin-top: 0px; 
+    background: #F8F8F8;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.PS{margin-left: 150px;
+    width: 340px;
+    height: 61.57px;
+
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+/* or 187% */
+
+
+color: var(--text-color1);
+}
+.Media{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.at{
+    width: 132px;
+    height: 30px;
+
+    margin-left: 150px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+/* identical to box height, or 187% */
+
+text-align: center;
+
+color: #AFB5C0;
+}
+.log{
+    margin-left: 150px;
+    padding-top: 80px;
+}
+
+.finhead1{
+    padding-top: 70px;
+    margin-left: 230px;
+    width: 74px;
+    height: 280px;
+}
+.finhead2{
+    padding-top: 70px;
+    margin-left: 100px;
+    width: 121px;
+    height: 120px;
+}
+
+ul.fr, ul.fr2{
+    padding-inline-start: 0px;
+}
+
+ul.fr li{
+    text-decoration: none;
+    margin-top: 3px;
+    margin-right: -40px;
+    color: var(--text-color1);
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.fr2 li{
+    text-decoration: none;
+    margin-top: 3px;
+    color: var(--text-color1);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul.fr2 li:hover{
+    text-decoration: underline;
+    color: var(--text-color1);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul.fr li:hover{
+    text-decoration: underline;
+    text-decoration: none;
+    margin-right: -40px;
+    color: var(--text-color1);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul.fr2{
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+.FH{
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: red;
+}
+
+.FFS{
+    margin-top: 20px;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-color: red;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 0px red;
+}
+
+.Foot{
+    width: 1688px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mainf{
+    margin-left: 30px;
+}
+
+.namefield{
+    border-color: red;
+    border-radius: 5px;
+    margin-left: 35px;
+}
+
+.txt{
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+
+.passwordfield{
+    border-color: red;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+
+.emailfield{
+    border-color: red;
+    border-radius: 5px;
+    margin-left: 38px;
+}
+
+.mobilefield{
+    border-color: red;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.datebox{
+    border-color: black;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.genderch{
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+.WhenCon{
+    padding-top: 0px;
+    margin-left: 0px;
+}
+
+.SignUpF {
+    margin-top: 45.62px;
+    margin-left: 690px;
+    width: 300px;
+    height: 45px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.SignUpFClosed {
+    margin-top: 45.62px;
+    margin-left: 690px;
+    width: 300px;
+    height: 45px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: gray;
+}
+
+.SUFtxt{
+    margin-top: 10px;
+    margin-left: 110px;
+    width: 75px;
+    height: 19px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+.SignUpF:hover {
+    margin-top: 45.62px;
+    margin-left: 690px;
+    width: 300px;
+    height: 45px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    border-radius: 50px;
+    box-shadow: 0 10px 40px 0px red;
+}
+
+.footerF{
+    margin-top: 50px;
+}
+
+.Form2{
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-right: 550px;
+    width: 500px;
+    margin-bottom: 30px;
+    display: flex;
+    
+}
+
+dt
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 26px;
+    color: #cc0700;
+}
+
+dt::first-letter
+{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+dd
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+dd::after
+{
+   content: "\1F6C8";
+}
+
+.Form2PEK{
+  margin-left: 550px;
+    margin-bottom: 30px;
+   
+ 
+}
+
+.checkboxpel{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.checkboxpcls{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.PEK{
+    flex-direction: column;
+    font-size: 1em;
+    color: #cc0700;
+}
+
+.Chet{
+    margin-top: 5px;
+    font-size: 20px;
+    color:red;
+}
+
+.Nechet{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    color:black;
+}
+
+.checkedForm{
+    text-decoration: line-through;
+}
+
+.PEKf{
+    
+    margin-top: 10px;
+    
+}
