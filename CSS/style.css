@@ -1457,22 +1457,31 @@ dd::after
     color: #cc0700;
 }
 
-.Chet{
+input[type="checkbox"]:checked ~ .checkedForm2
+{
+    text-decoration: line-through;
+}
+
+input[type="checkbox"]:checked ~ .checkedForm
+{
+    text-decoration: line-through;
+}
+.OddEv label:nth-child(even){
     margin-top: 5px;
     font-size: 20px;
     color:red;
 }
 
-.Nechet{
+
+.OddEv label:nth-child(odd){
     margin-left: 5px;
     margin-top: 5px;
     font-size: 20px;
     color:black;
 }
 
-.checkedForm{
-    text-decoration: line-through;
-}
+
+
 
 .PEKf{
     
