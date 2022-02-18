@@ -16,6 +16,18 @@
     border: 1px solid red;
 }
 
+:disabled
+{
+    margin-top: 45.62px;
+    margin-left: 690px;
+    width: 300px;
+    height: 45px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: gray;
+}
+
     a{
         color: var(--text-color1);
         text-decoration: none;
