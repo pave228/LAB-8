@@ -8,6 +8,10 @@
         background-color: red;
     }
 
+::placeholder{
+    font-style: italic;
+}
+
     a{
         color: var(--text-color1);
         text-decoration: none;
